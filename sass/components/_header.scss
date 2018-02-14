@@ -1,0 +1,45 @@
+header{
+  background-color: #99100c;
+  .row{
+    margin-bottom: 0;
+  }
+  .logo-menu{
+    padding: 5px 0;
+    .logo{
+      max-width: 175px;
+    }
+    .login-signup{
+      text-align: right;
+    vertical-align: middle;
+    position: absolute;
+    top:50%;
+    right: 0;
+    transform: translate(0, -50%);
+      .btn{
+        margin: 0 20px;
+        height: 30px;
+        line-height: 30px;
+        padding: 0 15px;
+        font-size: 12px;
+        &.white{
+          color: $primary-color;
+
+        }
+      }
+    }
+  }
+  nav{
+    height: 35px;
+    line-height: 35px;
+  background-color: #d51d18;
+    .nav-wrapper{
+ul{
+  li{
+    a{
+      font-size: 13px;
+    }
+  }
+}
+    }
+  }
+}
