@@ -1,45 +1,75 @@
-header{
+header {
   background-color: #99100c;
-  .row{
+
+  .row {
     margin-bottom: 0;
   }
-  .logo-menu{
+
+  .logo-menu {
     padding: 5px 0;
-    .logo{
+
+    .logo {
       max-width: 175px;
     }
-    .login-signup{
+
+    .login-signup {
       text-align: right;
-    vertical-align: middle;
-    position: absolute;
-    top:50%;
-    right: 0;
-    transform: translate(0, -50%);
-      .btn{
+      vertical-align: middle;
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translate(0, -50%);
+
+      .btn {
         margin: 0 20px;
         height: 30px;
         line-height: 30px;
         padding: 0 15px;
         font-size: 12px;
-        &.white{
-          color: $primary-color;
 
+        &.white {
+          color: $primary-color;
         }
       }
     }
   }
-  nav{
-    height: 35px;
-    line-height: 35px;
-  background-color: #d51d18;
-    .nav-wrapper{
-ul{
-  li{
-    a{
-      font-size: 13px;
-    }
-  }
-}
+
+  nav {
+    height: 50px;
+    line-height: 50px;
+    background-color: #d51d18;
+
+    .nav-wrapper {
+      ul {
+        li {
+          a {
+            font-size: 13px;
+          }
+        }
+      }
+
+      form {
+        border-radius: 5px;
+        height: 40px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 5px;
+        margin-right: 10px;
+        padding: 0 10px;
+        background: rgba(255, 255, 255, 0.1);
+
+        ::placeholder {
+          color: #fff;
+        }
+
+        input[type="text"] {
+          margin-bottom: 0;
+          height: 40px;
+          border: none;
+        }
+      }
     }
   }
 }
